@@ -1,0 +1,12 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+if SHIELD_TEST
+
+config ZMK_KEYBOARD_NAME
+    default "Test"
+
+endif
+
+if SHIELD_TEST
+
+endif
